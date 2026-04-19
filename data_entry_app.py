@@ -48,20 +48,6 @@ PASSWORD = "admin123"
 
 user_credentials = {
   "user1": "123456", 
-  "Reddy": "123",  
-  "admin": "adminpass",
-  "Charan": "Chanan6",
-  "Abhilash": "Abshsh8",
-  "Ahalya": "Ahyaya6",
-  "Vamsi": "Vasisi5",
-  "Reechika": "Rekaka8",
-  "Sindhu N": "SinNN8",
-  "Rajeshwari": "Rariri10",
-  "Bhargav": "Bhavav7",
-  "venkatesh": "veshsh9",
-  "Sushmitha": "Sahaha9",
-  "Sindhu M": "SinMM8",
-  "Sai": "Saiiai3"
 }
 
 US_STATES = [
@@ -459,7 +445,7 @@ class App:
     def __init__(self, username):
         self.username = username
         self.root = tk.Tk()
-        self.root.title(f"Unidor Data Entry  {username}")
+        self.root.title(f"Data Entry  {username}")
         self.root.geometry("1100x750")
         self.root.minsize(900, 600)
         self.root.configure(bg="#f0f4f7")
